@@ -1,0 +1,12 @@
+{
+  "name": "web_architecture",
+  "version": "1.0.0",
+  "description": "New feautures and libraries used on this project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexey Golovchan",
+  "license": "ISC"
+}

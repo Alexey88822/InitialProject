@@ -43,7 +43,8 @@ module.exports = (env) => {
         alias: { // Тут тот же момент, что и в tsconfig.json, чтобы Webpack смог понять ссылки на директории
             app: path.resolve(__dirname, 'src/app/'),
             pages: path.resolve(__dirname, 'src/pages/'),
-            common: path.resolve(__dirname, 'src/common/')
+            common: path.resolve(__dirname, 'src/common/'),
+            i18n: path.resolve(__dirname, 'src/i18n/')
         },
     }
 

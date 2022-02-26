@@ -1,6 +1,7 @@
 import { FC } from "react";
 import React from "react";
 import { createUseStyles } from "react-jss";
+import { FormattedMessage } from "react-intl";
 
 const useStyles = createUseStyles({
   contentContainer: {
@@ -15,7 +16,7 @@ const Content: FC = () => {
 
     return(
         <div className={classes.contentContainer}>
-            Content
+            <FormattedMessage id="content-page"/>
         </div>
     )
 }
